@@ -34,3 +34,14 @@ var outputmess = `
  `;
 console.log(outputmess);
 
+var colorNames = ['Red', 'Green','yellow'];
+for(let i in colorNames){
+    console.log(colorNames[i]);
+}
+for (let item of colorNames){
+    console.log(item);
+}
+let namen = "noisy";
+for(let c of namen){
+    console.log(c);
+}

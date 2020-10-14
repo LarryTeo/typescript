@@ -40,4 +40,17 @@ var namem = "noisy";
 var stt = 10;
 var outputmess = "\n wellcome " + namem + " " + stt + " to BHTA\n this is toturios\n ";
 console.log(outputmess);
+var colorNames = ['Red', 'Green', 'yellow'];
+for (var i in colorNames) {
+    console.log(colorNames[i]);
+}
+for (var _i = 0, colorNames_1 = colorNames; _i < colorNames_1.length; _i++) {
+    var item = colorNames_1[_i];
+    console.log(item);
+}
+var namen = "noisy";
+for (var _a = 0, namen_1 = namen; _a < namen_1.length; _a++) {
+    var c = namen_1[_a];
+    console.log(c);
+}
 //# sourceMappingURL=lession88.js.map
